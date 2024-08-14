@@ -1,0 +1,65 @@
+@media (min-width:300px) and (max-width:574px){
+    .checkbtn{
+        display: block;
+      }
+       ul{
+        width: 50%;
+        height: 100vh;
+        top:80px;
+        left:0;
+        text-align: center;
+        margin:auto;
+        margin-top: 50px;
+      }
+      nav ul li{
+        display: block;
+      }
+      nav ul li a{
+        font-size: 20px;
+      }
+    .health_banner{
+        margin-left: 30px;
+    }
+    .health_banner p{
+        font-size: 14px;
+        width: 300px;
+    }
+    .health_banner h2{
+        font-size: 30px;
+    }
+    .habbit {
+        width: 350px}
+        .habbit h2{
+            font-size: 25px;
+        }
+    .habbit p{
+        width: 300px;
+        font-size: 15px;
+    } 
+    .extra_container {
+        flex-direction: column;
+    }
+    .team_img_one {
+        flex-direction: column;
+        padding: 10px;
+        
+    }
+    .team_bell {
+        width: 100%;
+        margin-bottom: 15px;
+}
+.team_Cameron {width: 100%;
+margin-bottom: 15px;}
+.team_Darrell {width: 100%;margin-bottom: 15px;}
+.Dianne {width: 100%;margin-bottom: 15px;}
+.Cody {width: 100%;margin-bottom: 15px;}
+.Theresa {width: 100%;}
+.footer_content p {
+    width: 300px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .easily_content p {width:300px; font-size: 16px;}
+  .extra_img {width: 100%;}
+  
+}

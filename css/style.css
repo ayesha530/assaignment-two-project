@@ -1,0 +1,554 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: "Inter", sans-serif;
+}
+body{
+  background-color: #000;
+}
+.header-content{
+  width:80%;
+  display: flex;
+  justify-content: space-between;
+  margin:auto;
+  height: 70px;
+  align-items: center;
+  padding-top: 15px;
+}
+.logo{
+  width:20%;
+  display: flex;
+}
+.check{
+  display: none;
+}
+.checkbtn{
+  display: none;
+  font-size: 30px;
+  float:right;
+  color:#fff;
+  margin-right: 20px;
+  
+}
+.logo h2{
+display: inline;
+margin-left: 10px;
+text-align: center;
+text-transform: capitalize;
+margin-top: 5px;
+font-size: 32px;
+color:#E6533C;
+font-weight: bolder;
+}
+.nav{
+  width:50%;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: end;
+}
+nav ul li{
+  margin-left:40px;
+}  
+nav ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color:#fff;
+  font-weight: normal;
+  position: relative;
+  padding-bottom: 10px;
+}
+nav ul li a::before{
+  content:   "";
+  position: absolute;
+  bottom:0%;
+  left:0;
+  width:0%;
+  height: 3px;
+  background-color: #FF5400;
+  transition: .2s ease-in-out;
+
+}
+nav ul li a:hover::before{
+  width:45%;
+ 
+}   
+nav ul li a::after{
+  content:   "";
+  position: absolute;
+  bottom:0%;
+  right:0;
+  width:0%;
+  height: 3px;
+  background-color: #FF5400;
+   transition: .2s ease-in-out;
+
+}
+nav ul li a:hover::after{
+  width:45%;
+ 
+}
+/* banner section start */
+.banner_section{
+  
+  margin:auto;
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+.health_banner{}
+.health_banner h2{
+  font-size: 60px;
+  color:#fff;
+  width:350px;
+  margin-top: 78px;
+}
+.health_banner p{
+  color:#fff;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width:400px;
+ 
+}
+.join_button{
+  color:#fff;
+  background-color: #FF5400;
+  padding: 12px 25px 12px 25px;
+  border-radius: 15px;
+  text-transform: capitalize;
+  border:1px solid #FF5400;
+  margin-right: 15px;
+  font-size: 15px;
+}
+.download_btn{
+  color:#fff;
+  padding: 12px 25px 12px 25px;
+  border-radius: 15px;
+  text-transform: capitalize;
+  border:1px solid #fff;
+  background:transparent;
+  font-size: 15px;
+  
+}
+.banner_img{}
+.banner_img img{}
+/* banner section end */
+
+/* change section start */
+
+.change_section{
+  width:80%;
+  margin:auto;
+  padding: 70px 0px 50px 0px;
+}
+.habbit{
+  width: 700px;
+  margin: auto;
+}
+.habbit h2{
+  color:#fff;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+.habbit p{
+  color:#ddd;
+  width: 600px;
+  text-align: center;
+  margin-left: 50px;
+}
+/* change content */
+.change_content{
+margin-top: 50px;
+display: flex;
+}
+.change_content_one{
+margin-right: 30px;
+
+}
+.change_content img{
+border-radius: 50%;
+display: flex;
+margin:auto;
+}
+.change_content_one h4{
+color:#fff;
+font-size: 18px;
+margin-bottom: 15px;
+margin-top: 15px;
+text-align: center;
+}
+.change_content_one p{
+color: #ddd;
+font-size: 16px;
+text-align: center;
+
+}
+/* change section end */
+
+/* extra section start */
+.extra_section{
+width: 80%;
+margin:auto;
+background-color: #222222;
+border-radius: 15px;
+}
+.extra_container{
+display: flex;
+padding: 20px 30px 20px 30px;
+}
+.easily_content{
+width: 50%;
+margin-top: 30px;
+}
+.easily_content h2{
+color:#fff;
+font-size: 55px;
+width:350px;
+}
+.easily_content p{
+color:#ddd;
+font-size: 16px;
+width:470px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.extra_img{
+background-image: url(../images/run.jpg);
+min-height: 50vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+width:50%;
+margin:auto;
+border-radius: 16px;
+margin-top: 20px;
+}
+/* extra section end */
+
+/* training section start */
+.trainings_section{
+width:80%;
+margin:auto;
+padding: 70px 0px 70px 0px;
+}
+.trainings_content{}
+.trainings_content h2{
+color:#fff;
+font-size: 36px;
+margin-left: 15px;
+}
+.trainings_content p{
+color:#ddd;
+font-size: 16px;
+margin-left: 15px;
+margin-top: 20px;
+width: 570px;
+margin-bottom: 30px;
+}
+/*  */
+.exercise_content{}
+.exercise_container{
+display: flex;
+}
+.exercise_img_one{
+background-image: url(../images/exercise1.jpg);
+min-height: 40vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+width:25%;
+margin-top: 20px;
+position: relative;
+}
+.exercise_img_two{
+background-image: url(../images/exercise2.png);
+min-height: 40vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+width:50%;
+margin-top: 20px;
+}
+.exercise_img_three{
+  background-image: url(../images/exercise3.png);
+  min-height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width:25%;
+  margin-top: 20px;
+  }
+  .exercise_img_four{
+    background-image: url(../images/exercise4.png);
+    min-height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width:50%;
+    margin-top: 20px;
+    }
+
+    .exercise_img_five{
+      background-image: url(../images/exercise5.jpg);
+      min-height: 40vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      width:25%;
+      }
+      .exercise_img_six{
+        background-image: url(../images/exercise6.jpg);
+        min-height: 40vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        width:25%;
+        }   
+/* trainings section end */
+/* calculator section start */
+  
+/* calculator section end */
+
+/* team section start */
+.team_section{
+  width:80%;
+  margin:auto;
+}
+.team_content{
+  padding:70px 0px 70px 0px;
+  
+}
+.team_content h2{
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.team_content p {
+  font-size: 16px;
+  text-align: center;
+  padding: 0px 200px;
+  color: #ddd;
+  margin-bottom: 50px;
+
+}
+.team_img_one{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.team_bell{
+background-image: url(../images/trainer1.png);
+min-height: 40vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+width:40%;
+border-radius: 16px;
+margin-right: 15px;
+}
+.team_bell::before{
+  content:'';
+  position: absolute;
+  width:40%;
+  height: 100%;
+  background-color: black;
+  opacity: .5;
+  z-index: -1;
+  border-radius: 16px;
+}
+.team_Cameron{
+background-image: url(../images/trainer2.png);
+min-height: 40vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+width:40%;
+border-radius: 16px;
+margin-right: 15px;
+}
+.team_Cameron::before{
+  content:'';
+  position: absolute;
+  width:40%;
+  height: 100%;
+  background-color: black;
+  opacity: .5;
+  z-index: -1;
+  border-radius: 16px;
+}
+.team_Darrell{
+background-image: url(../images/trainer3.png);
+min-height: 40vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+width:40%;
+border-radius: 16px;
+}
+.team_Darrell::before{
+  content:'';
+  position: absolute;
+  width:40%;
+  height: 100%;
+  background-color: black;
+  opacity: .5;
+  z-index: -1;
+  border-radius: 16px;
+}
+.Dianne{
+background-image: url(../images/trainer4.png);
+min-height: 40vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+width:40%;
+border-radius: 16px;
+}
+.Dianne::before{
+  content:'';
+  position: absolute;
+  width:40%;
+  height: 100%;
+  background-color: black;
+  opacity: .5;
+  z-index: -1;
+  border-radius: 16px;
+}
+.Cody{
+background-image: url(../images/trainer5.png);
+min-height: 40vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+width:40%;
+border-radius: 16px;
+margin-left: 15px;
+}
+.Cody::before{
+  content:'';
+  position: absolute;
+  width:40%;
+  height: 100%;
+  background-color: black;
+  opacity: .5;
+  z-index: -1;
+  border-radius: 16px;
+  
+}
+.Theresa{
+  background-image: url(../images/trainer6.png);
+  min-height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width:40%;
+  border-radius: 16px;
+  margin-left: 15px;
+  
+  }
+  .Theresa::before{
+    content:'';
+    position: absolute;
+    width:40%;
+    height: 100%;
+    background-color: black;
+    opacity: .5;
+    z-index: -1;
+    border-radius: 16px;
+  }
+.team_img_one{}
+.team_img_one h2{
+  color:#fff;
+  position:absolute;
+  bottom:30px;
+  left:10px;
+  font-size: 20px;
+}
+.team_img_one p{
+  color:#ddd;
+  right: 80px;
+  font-size: 14px;
+  position: absolute;
+  bottom: -25px;
+  
+}
+.team_content_img{
+  background-color: #222222;
+  border-radius: 16px;
+  padding:25px 20px 5px 20px;
+}
+/* team section end */
+
+/* footer section start */
+footer{
+  background-color: #191919;
+  padding: 50px;
+}
+.footer_container{
+  width:80%;
+  margin:auto;
+}
+.footer_container_content{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.footer_content{}
+.footer_content h2{
+  color:#fff;
+  margin-bottom: 20px;
+  color:#E6536C;
+  font-size: 40px;
+}
+.footer_content p{
+  color:#ddd;
+  width: 350px;
+  font-size: 16px;
+}
+.footer_list{}
+.footer_list h2{
+  font-size: 35px;
+  color:#fff;
+}
+.footer_list ul{
+  margin-top: 15px;
+}
+.footer_list ul li{
+  list-style: none;
+  margin-left: 20px;
+  color: #fff;
+  margin-top: 10px;
+}
+.footer_list ul li a{
+  font-size: 18px;
+}
+.footer_para{
+  border-top: 1px solid #ddd;
+  padding:20px 0px 20px 0px;
+ 
+}
+.footer_para{
+  padding-top: 30px;
+  color:#ddd;
+  text-align: center;
+  font-size: 18px ;
+}
