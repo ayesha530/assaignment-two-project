@@ -72,6 +72,24 @@
         width: 100%;
         margin-bottom: 15px;
 }
+.calculate_container {flex-direction: column;}
+.calculate_content {
+  width: 280px;
+}
+.calculate_chart_container h2 {
+  font-size: 20px;
+  width: 280px;
+}
+.calculate_content h2 {
+  font-size: 18px;
+  margin-top: 15px;
+}
+.select_form{
+  width: 120px;
+}
+.active_factor {width: 255px;}
+.form_input input {width: 110px;}
+.input_three {width: 110px;}
 .change_content_one {margin-bottom: 15px;}
 .trainings_content p {
     width: 280px;
