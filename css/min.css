@@ -5,24 +5,26 @@
        .menu_btn{
         display: block;
       }
-      #click:checked ~ .menu_btn::before{
+      #click:checked ~ .menu_btn i:before{
         content: "\f00d";
       }
       nav ul{
         position: fixed;
+        width: 25%;
         margin:auto;
-        width: 70%;
+        margin-left: 70%;
         height: 30vh;
         top:80px;
         left:-100%;
         text-align: center;
         display: block;
-        background-color: #dc3f3f;
-        margin-bottom: 30px;
+        background-color: #393939;
+        margin-top: 20px;
       }
       nav ul li{
         margin: 10px 0px;
         display: block;
+        margin-bottom: 15px;
       }
       #click:checked ~ ul{
         left:0%;
@@ -30,7 +32,8 @@
       }
       
       nav ul li a{
-        font-size: 20px;
+        font-size: 14px;
+
       }
       .banner_section{
         margin-top: 20px;
@@ -127,5 +130,8 @@ margin-bottom: 15px;}
         .banner_number_two {
           left: 8%;
           top: 118%;
+        }
+        .office {
+         left:25%;
         }
 }

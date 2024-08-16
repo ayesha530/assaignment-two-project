@@ -522,7 +522,7 @@ margin-right: 15px;
   position: absolute;
   width:40%;
   height: 100%;
-  background-color: black;
+  background-color: #000;
   opacity: .5;
   z-index: -1;
   border-radius: 16px;
@@ -714,7 +714,7 @@ footer{
   position: relative;
 }
 .office{
-  background: #f39c12;
+  background: #E6533C;
   width: 250px;
   height: 250px;
   position:absolute;
