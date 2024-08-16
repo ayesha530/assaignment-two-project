@@ -2,20 +2,37 @@
     .checkbtn{
         display: block;
       }
-       ul{
-        width: 50%;
-        height: 100vh;
-        top:80px;
-        left:0;
-        text-align: center;
+       .menu_btn{
+        display: block;
+      }
+      #click:checked ~ .menu_btn::before{
+        content: "\f00d";
+      }
+      nav ul{
+        position: fixed;
         margin:auto;
-        margin-top: 50px;
+        width: 70%;
+        height: 30vh;
+        top:80px;
+        left:-100%;
+        text-align: center;
+        display: block;
+        background-color: #dc3f3f;
+        margin-bottom: 30px;
       }
       nav ul li{
+        margin: 10px 0px;
         display: block;
+      }
+      #click:checked ~ ul{
+        left:0%;
+        margin-bottom: 30px;
       }
       nav ul li a{
         font-size: 20px;
+      }
+      .banner_section{
+        margin-top: 20px;
       }
     .health_banner{
         margin-left: 30px;
@@ -26,6 +43,7 @@
     }
     .health_banner h2{
         font-size: 30px;
+        margin-top: 15px;
     }
     .habbit {
         width: 350px}
