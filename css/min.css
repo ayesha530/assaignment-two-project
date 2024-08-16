@@ -42,6 +42,11 @@
         font-size: 14px;
         width: 300px;
     }
+    
+    .bannerNumber {
+      left:27%;
+      top:74%;
+    }
     .health_banner h2{
         font-size: 30px;
         margin-top: 15px;

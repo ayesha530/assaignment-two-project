@@ -19,6 +19,59 @@ body{
   width:20%;
   display: flex;
 }
+nav{
+  border: 1px solid #ffffff1A;
+  border-radius: 15px;
+  padding: 14px;
+}
+.bannerNumber{
+  background-color: #393939;
+  padding: 8px;
+  position: absolute;
+  left: 73%;
+  top: 54%;
+  border-radius: 8px;
+}
+.banner_number_two{
+  background-color: #B9B9B933;
+  padding: 8px;
+  position: absolute;
+  left: 50%;
+  top: 86%;
+}
+
+.number_container{
+  display: flex;
+}
+.number_content{
+}
+.number_content span{
+  background: #E6533C;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+ 
+}
+.number_content_two{}
+.number_content_two h4{color:#fff;
+  font-size: 17px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+}
+.number_content_two p{color:#ffffff33;
+  font-size: 12px;
+}
+.bannerNumber h4{
+  color:#fff;
+  font-size: 17px;
+  margin-bottom: 10px;
+
+}
+.bannerNumber p{
+  color:#ffffff33;
+  font-size: 12px;
+}
 #click{
   display: none;
 }
@@ -133,7 +186,9 @@ nav ul li a:hover::after{
   font-size: 15px;
   
 }
-.banner_img{}
+.banner_img{
+  position: relative;
+}
 .banner_img img{}
 /* banner section end */
 
@@ -216,7 +271,8 @@ width:470px;
 margin-top: 20px;
 margin-bottom: 20px;
 }
-.extra_img{
+
+ .extra_img{
 background-image: url(../images/run.jpg);
 min-height: 50vh;
 background-repeat: no-repeat;
@@ -226,8 +282,10 @@ position: relative;
 width:50%;
 margin:auto;
 border-radius: 16px;
-margin-top: 20px;
-}
+margin-top: 20px; 
+object-fit: none;
+object-position: 66% 33%;
+ } 
 /* extra section end */
 
 /* training section start */
@@ -650,4 +708,43 @@ footer{
   color:#ddd;
   text-align: center;
   font-size: 18px ;
+}
+
+.map_section{
+  position: relative;
+}
+.office{
+  background: #f39c12;
+  width: 250px;
+  height: 250px;
+  position:absolute;
+  left: 65%;
+  top: 50%;
+  bottom: 50%;
+  transform: translateY(-50%);
+  opacity: .9;
+}
+.office h2{
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  margin-left: 40px;
+  padding-top: 20px;
+}
+.office_list{
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.office_list li{
+  list-style: none;
+  color: #fff;
+  font-size: 14px;
+}
+.officeList_two{
+  margin-left: 40px;
+  margin-top: 15px;
+  color: #fff;
+}
+.officeList_two li{
+  list-style: none;
 }
