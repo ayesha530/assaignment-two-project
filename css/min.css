@@ -28,6 +28,7 @@
         left:0%;
         margin-bottom: 30px;
       }
+      
       nav ul li a{
         font-size: 20px;
       }
@@ -45,14 +46,19 @@
         font-size: 30px;
         margin-top: 15px;
     }
+    .banner_img img {
+        width: 250px;
+        margin-left: 20px;
+        margin-top: 15px;
+      }
     .habbit {
         width: 350px}
         .habbit h2{
             font-size: 25px;
         }
     .habbit p{
-        width: 300px;
-        font-size: 15px;
+        width: 280px;
+        font-size: 14px;
     } 
     .extra_container {
         flex-direction: column;
@@ -66,6 +72,11 @@
         width: 100%;
         margin-bottom: 15px;
 }
+.change_content_one {margin-bottom: 15px;}
+.trainings_content p {
+    width: 280px;
+    font-size: 14px;
+  }
 .team_Cameron {width: 100%;
 margin-bottom: 15px;}
 .team_Darrell {width: 100%;margin-bottom: 15px;}
@@ -79,5 +90,15 @@ margin-bottom: 15px;}
   }
   .easily_content p {width:300px; font-size: 16px;}
   .extra_img {width: 100%;}
-  
+  .footer_list h2 {
+    font-size: 20px;}
+    .footer_list ul li a {
+        font-size: 15px;
+      } 
+      .footer_list {
+        margin-bottom: 20px;
+      }
+      .footer_content p {
+        width: 280px;
+        font-size: 12px;}
 }

@@ -317,7 +317,106 @@ margin-top: 20px;
         }   
 /* trainings section end */
 /* calculator section start */
+.bmi_calculate{
+  background-color: #222;
+  padding: 50px;
+}
+.calculate_container{
+ display: flex;
+ width: 80%;
+ margin: auto;
+}
+.calculate_chart_container{
+  width: 50%;
+}
+.calculate_chart_container h2{
+  color:#fff;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.calTalble{
+  border-collapse: collapse;
   
+}
+td, th {
+  border: 1px solid #ffffff1A;
+  text-align: left;
+  padding: 15px 30px 15px 30px;
+  color:#fff;
+  
+}
+th{
+  color:#fff;
+  font-size: 16px;
+}
+td{
+  color:#ffffff80;
+  font-size: 14px;
+}
+.calculate_bmi{
+  width: 50%;
+}
+.calculate_content{}
+.calculate_content h2{
+  color:#fff;
+  font-weight: black;
+  font-size: 28px;
+}
+.calculate_content p{
+  font-size: 14px;
+  color: #ffffff80;
+  margin-top: 15px;
+}
+.form_container{
+  margin-top: 30px;
+}
+.form_input{
+  display: flex;
+}
+.form_input input {
+  background: #383838;
+  padding: 14px 15px 14px 15px;
+  width: 50%;
+  border: none;
+  margin-right: 10px;
+  color: #ffffff99;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.form_check{
+  margin-top: 20px;
+  display: flex;
+}
+.input_three{
+  background: #383838;
+  padding: 14px 15px 14px 15px;
+  width: 50%;
+  border: none;
+  margin-right: 10px;
+  color: #ffffff99;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.active_factor{
+  background: #383838;
+  padding: 14px 15px 14px 15px;
+  width: 98%;
+  border: none;
+  margin-right: 10px;
+  color: #ffffff99;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.calculate_btn{
+  background-color: #E6533C;
+  color:#fff;
+  margin-top: 30px;
+  padding: 15px 50px 15px 50px;
+  font-size: 18px;
+  border-radius: 15px;
+  border: none;
+}
 /* calculator section end */
 
 /* team section start */
